@@ -1,7 +1,7 @@
 ---
 title: "DS311 - Basic R Lab Exercise"
-author: "Alejandro Alvarez"
-date: "`r Sys.Date()`"
+author: "Norman Lo"
+date: "10/25/2024"
 output:
   html_document: default
   pdf_document: default
@@ -153,10 +153,7 @@ Hint: Check out the "letters" and "LETTERS" key words in R.
 
 ```{r}
 # Enter your code here.
-lower_vec <- letters
-lower_vec
-upper_mat <- matrix(LETTERS, nrow = 2, byrow = TRUE)
-upper_mat
+
 
 
 ```
@@ -256,17 +253,18 @@ Once you finished and knit the RMarkdown file into html file, you should be able
 ```{r}
 # Write your code here!
 # Part a
-x <- 4
+
 
 # Part b
-y <- 12
+
 
 # Part c
-print(x)
-print(y)
+
 
 # Part d
-z <- y / x
+x = 2
+y = 3
+z = 10
 # Part e
 print(paste("y divided by x is equal to ", z))
 

@@ -9,9 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Alejandro Alvarez" />
+<meta name="author" content="Norman Lo" />
 
-<meta name="date" content="2025-04-13" />
+<meta name="date" content="2024-10-25" />
 
 <title>DS311 - Basic R Lab Exercise</title>
 
@@ -352,8 +352,8 @@ display: none;
 
 <h1 class="title toc-ignore">DS311 - Basic R Lab Exercise</h1>
 <h3 class="subtitle">R Lab Exercise</h3>
-<h4 class="author">Alejandro Alvarez</h4>
-<h4 class="date">2025-04-13</h4>
+<h4 class="author">Norman Lo</h4>
+<h4 class="date">10/25/2024</h4>
 
 </div>
 
@@ -501,16 +501,7 @@ sequence.</li>
 sequence.</li>
 </ol>
 <p>Hint: Check out the “letters” and “LETTERS” key words in R.</p>
-<pre class="r"><code># Enter your code here.
-lower_vec &lt;- letters
-lower_vec</code></pre>
-<pre><code>##  [1] &quot;a&quot; &quot;b&quot; &quot;c&quot; &quot;d&quot; &quot;e&quot; &quot;f&quot; &quot;g&quot; &quot;h&quot; &quot;i&quot; &quot;j&quot; &quot;k&quot; &quot;l&quot; &quot;m&quot; &quot;n&quot; &quot;o&quot; &quot;p&quot; &quot;q&quot; &quot;r&quot; &quot;s&quot;
-## [20] &quot;t&quot; &quot;u&quot; &quot;v&quot; &quot;w&quot; &quot;x&quot; &quot;y&quot; &quot;z&quot;</code></pre>
-<pre class="r"><code>upper_mat &lt;- matrix(LETTERS, nrow = 2, byrow = TRUE)
-upper_mat</code></pre>
-<pre><code>##      [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10] [,11] [,12] [,13]
-## [1,] &quot;A&quot;  &quot;B&quot;  &quot;C&quot;  &quot;D&quot;  &quot;E&quot;  &quot;F&quot;  &quot;G&quot;  &quot;H&quot;  &quot;I&quot;  &quot;J&quot;   &quot;K&quot;   &quot;L&quot;   &quot;M&quot;  
-## [2,] &quot;N&quot;  &quot;O&quot;  &quot;P&quot;  &quot;Q&quot;  &quot;R&quot;  &quot;S&quot;  &quot;T&quot;  &quot;U&quot;  &quot;V&quot;  &quot;W&quot;   &quot;X&quot;   &quot;Y&quot;   &quot;Z&quot;</code></pre>
+<pre class="r"><code># Enter your code here.</code></pre>
 </div>
 <div id="dataframe" class="section level3">
 <h3>DataFrame</h3>
@@ -569,21 +560,21 @@ should be able to see the message “Congratulation!! You completed the
 first exercise in this section!!” in the html document.</p>
 <pre class="r"><code># Write your code here!
 # Part a
-x &lt;- 4
+
 
 # Part b
-y &lt;- 12
+
 
 # Part c
-print(x)</code></pre>
-<pre><code>## [1] 4</code></pre>
-<pre class="r"><code>print(y)</code></pre>
-<pre><code>## [1] 12</code></pre>
-<pre class="r"><code># Part d
-z &lt;- y / x
+
+
+# Part d
+x = 2
+y = 3
+z = 10
 # Part e
 print(paste(&quot;y divided by x is equal to &quot;, z))</code></pre>
-<pre><code>## [1] &quot;y divided by x is equal to  3&quot;</code></pre>
+<pre><code>## [1] &quot;y divided by x is equal to  10&quot;</code></pre>
 <pre class="r"><code># Do not need to change the following code!
 if (exists(&quot;x&quot;) == TRUE | exists(&quot;y&quot;) == TRUE | exists(&quot;z&quot;) == TRUE){
   if (x == 4 &amp; y == 12 &amp; z == 3) {
@@ -594,7 +585,7 @@ if (exists(&quot;x&quot;) == TRUE | exists(&quot;y&quot;) == TRUE | exists(&quot
 } else {
   print(&quot;You did not complete the last problem!&quot;)
 }</code></pre>
-<pre><code>## [1] &quot;Congratulation!!  You completed the first activity in this class!!&quot;</code></pre>
+<pre><code>## [1] &quot;Sorry, you got it wrong!&quot;</code></pre>
 </div>
 </div>
 
